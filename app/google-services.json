@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "346790784524",
+    "firebase_url": "https://advancechatdemo.firebaseio.com",
+    "project_id": "advancechatdemo",
+    "storage_bucket": "advancechatdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346790784524:android:c3c7582581eadc0c",
+        "android_client_info": {
+          "package_name": "shree.firebaseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346790784524-ltpgvlm254bhbstqhbh4jmvhnonrb75s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shree.firebaseandroid",
+            "certificate_hash": "5d37733e839b075e4c372ddcfebd70cc6f9cb871"
+          }
+        },
+        {
+          "client_id": "346790784524-3vhhhnk8colj554md85tdn6meg6plnb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtA5vg9K-Ivv29rvR6o_bU3SX5H3sU9q4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346790784524-3vhhhnk8colj554md85tdn6meg6plnb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

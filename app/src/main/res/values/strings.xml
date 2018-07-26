@@ -1,0 +1,52 @@
+<resources>
+    <!-- <string name="app_name">Firebase Android</string>-->
+    <string name="sendPhoto">Photo Camera</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="select_picture_title">Get Photo From</string>
+    <string name="sendPhotoGallery">Photo Gallery</string>
+    <string name="api_key_google_places">AIzaSyBgUNIqBLoyBC_NXyOnitV3WAfXxuZvt6E</string>
+    <string name="sendLocation">Send Location</string>
+    <string name="locationTo">Location Posted</string>
+
+
+    <string name="app_name">Wotr</string>
+    <string name="title_me">Me</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_task">Task</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_Home_fragment">Me Home Screen </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="connecting">Connecting</string>
+    <string name="wait">Please Wait</string>
+
+
+    <string-array name="year">
+        <item>Select Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="quater">
+        <item>Select Quater</item>
+        <item>Quater1</item>
+        <item>Quater2</item>
+        <item>Quater3</item>
+        <item>Quater4</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>Select Units</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

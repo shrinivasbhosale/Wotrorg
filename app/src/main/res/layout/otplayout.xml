@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyotp">
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/imsuccess"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:background="@drawable/icsuccess"/>
+
+        <TextView
+            android:text="Varification Successful"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvotpsuccessful"
+            android:layout_toRightOf="@+id/imsuccess"
+            android:textColor="@color/colorblack"
+            android:visibility="invisible"
+
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/tvotploginmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:text="OTP has been send to your mobile no:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:layout_below="@+id/tvotploginmsg"
+            android:id="@+id/otpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <requestFocus />
+
+        </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lyotp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="OK"
+            android:id="@+id/btnotploginok"
+            android:textColor="@color/colorwhite"
+            android:background="@color/updatedappcolor"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:id="@+id/btnotplogincancel"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/updatedappcolor"
+            android:textColor="@color/colorwhite"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="shree.firebaseandroid.Activities.DailogAct">
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imgcross"
+        android:background="@drawable/ic_close_black_24dp"
+        android:layout_height="35dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imgcross"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorblack"
+            android:text="Start and Update Sub Activity"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darker_gray" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/title"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/unit"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorblack"
+                    android:textSize="15sp"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="Unit of measure       :"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_uom"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorblack"
+                    android:text="Unit of Litre"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/units"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorblack"
+                    android:layout_weight="2"
+                    android:text="Total Units                :"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorblack"
+                    android:id="@+id/tv_target_unit"
+                    android:text="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/target_units"
+                    android:textColor="@color/colorblack"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="Achieved Units        :"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorblack"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/tv_achieved_units"
+                    android:text="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorblack"
+                    android:text="Start Date                 :" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_startdate"
+                    android:layout_weight="2"
+                    android:textSize="15sp"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorblack"
+                    android:text="Select_Date"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dateend"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorblack"
+                    android:textSize="15sp"
+                    android:text="End Date                  :"/>
+                <TextView
+                    android:id="@+id/tv_enddate"
+                    android:layout_weight="2"
+                    android:textColor="@color/colorblack"
+                    android:layout_width="match_parent"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select_Date"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorblack"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="Status                      :"/>
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_weight="2"
+                    android:textColor="@color/colorblack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/loutdesc"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorblack"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="Description"/>
+
+                <TextView
+                    android:id="@+id/tv_subactdesc"
+                    android:layout_weight="2"
+                    android:textColor="@color/colorblack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="description"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loutdesc"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnstartact"
+                    android:layout_width="match_parent"
+                    android:background="@color/updatedappcolor"
+                    android:layout_height="40dp"
+                    android:text="Start Activity"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#FFFFFF"/>
+                <Button
+                    android:id="@+id/btnupdateact"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/button"
+                    android:layout_height="40dp"
+                    android:text="Update Achieved Units"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#FFFFFF"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

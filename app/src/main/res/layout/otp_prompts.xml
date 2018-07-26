@@ -1,0 +1,60 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorwhite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/txtlable"
+            android:layout_marginTop="8dp">
+
+             <EditText
+                android:id="@+id/descinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Achieved Units"
+                 android:inputType="numberDecimal"
+                 android:textColor="@color/colorblack"
+                 android:backgroundTint="@color/custom_text_color"
+                android:textSize="15sp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateend"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btncomplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:background="@color/updatedappcolor"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/btnupdate"
+                    android:layout_width="match_parent"
+                    android:background="@color/updatedappcolor"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="1dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+</LinearLayout>

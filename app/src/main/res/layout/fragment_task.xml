@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="@drawable/chat_background"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:context="shree.firebaseandroid.fragments.FragmentTask">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0edf8"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="3dp"
+            app:tabIndicatorColor="#21AB26"
+            app:tabMode="fixed"
+            android:layout_marginTop="1dp"
+            app:tabSelectedTextColor="#000"
+            app:tabTextColor="#7d756b" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tablayout"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listxyz"
+            android:layout_marginTop="51dp">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

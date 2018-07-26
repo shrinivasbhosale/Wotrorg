@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+
+    <color name="background">#e9e3dd</color>
+
+
+
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="apptheme">#2287C9</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="darker_gray">#A9A9A9</color>
+    <color name="colorblack">#000</color>
+    <color name="welcome">#003961</color>
+
+    <color name="completed">#21AB26</color>
+    <color name="assigned">#FF9100</color>
+    <color name="daily">#01A1FF</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="graylight">#fafafa</color>
+    <color name="updatedappcolor">#64abd9</color>
+
+
+</resources>

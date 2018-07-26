@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shree.firebaseandroid.Activities.Announcement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_anmt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Announcement Title"
+            android:textColorHint="@color/apptheme"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_anmt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lines="10"
+            android:minLines="10"
+            android:layout_marginTop="10dp"
+            android:hint="What is the this announcement about?"
+            android:paddingLeft="5dp"
+            android:paddingStart="10dp"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:textColor="@color/apptheme"
+            android:textColorHint="@color/apptheme"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_ann_attach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Photos and More"
+            android:layout_marginTop="10dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/apptheme" />
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/apptheme"
+        android:id="@+id/btn_send_announcement"
+        android:text="Send" />
+</RelativeLayout>

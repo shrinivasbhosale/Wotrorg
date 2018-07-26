@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="55dp"
+    android:layout_height="match_parent"
+    tools:context="shree.firebaseandroid.fragments.FragmentProjects">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:clickable="true"
+        android:id="@+id/projectListView"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        />
+
+</FrameLayout>

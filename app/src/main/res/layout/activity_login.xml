@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    tools:context="shree.firebaseandroid.Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#0d3650"
+        android:id="@+id/l"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginBottom="80dp"
+            android:padding="5dp"
+            />
+
+      <!--  <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to WOTR"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginRight="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginBottom="50dp"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/l2"
+        android:background="@color/colorwhite"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_below="@+id/l">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:theme="@style/txtlable"
+            android:layout_marginBottom="8dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:id="@+id/etusername"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:backgroundTint="@color/darker_gray"
+            android:textColorHint="@color/darker_gray"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        </android.support.design.widget.TextInputLayout>
+        <EditText
+            android:id="@+id/etcountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="none"
+            android:padding="10dp"
+            android:text="+91 India"
+            android:textColor="@color/apptheme"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:editable="false"
+            android:backgroundTint="@color/darker_gray"
+            android:textColorHint="@color/darker_gray"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:theme="@style/txtlable"
+            android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/etmobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="10"
+            android:hint="Phone number (without country code) "
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/darker_gray"
+            android:textColorHint="@color/darker_gray"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNext"
+            android:text="NEXT"
+            android:padding="10dp"
+            android:textColor="@color/colorwhite"
+            android:textSize="22sp"
+            android:background="@drawable/button"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+
+   <!-- <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="We will send you an sms to verify this number"
+        android:padding="3dp"
+        android:textColor="@color/darker_gray"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Privacy Statement"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/apptheme"
+        android:layout_alignParentBottom="true"/>
+-->
+
+</RelativeLayout>
+</ScrollView>
